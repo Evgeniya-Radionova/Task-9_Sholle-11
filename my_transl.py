@@ -220,3 +220,16 @@ for _ in range(20):
     print("-")
     print(input_sentence)
     print(decode_sequence(input_sentence))
+
+# Результат:
+# accuracy: 0.2873 - loss: 1.3806 - val_accuracy: 0.2658 - val_loss: 1.9437
+
+# Несколько примеров перевода:
+# Ввод:Tom failed horribly.
+# Вывод: [start] tom no se [UNK] [UNK] [end]
+
+# Ввод: We've got to find Tom before he does something stupid.
+# Вывод: [start] tenemos que ver a tom antes de ser un buen ejemplo [end]
+
+# Ввод: He entered the university after failing the examination twice.
+# Вывод: [start] Él entró a la universidad después de los dos años [end]
